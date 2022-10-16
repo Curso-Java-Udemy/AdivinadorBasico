@@ -26,7 +26,7 @@ public class Adivinador2 {
         
         if(user == numeroSecreto)
         {
-            System.out.println("Ganaste!!!!!");
+            System.out.println("¡¡¡GANASTE!!!");
             gano=true;
             break;
         }
@@ -38,6 +38,6 @@ public class Adivinador2 {
         }
         
         if(!gano)
-            System.out.println("Perdiste!");
+            System.out.println("¡¡¡PERDISTE!!! El número era: "+numeroSecreto);
     }
 }
