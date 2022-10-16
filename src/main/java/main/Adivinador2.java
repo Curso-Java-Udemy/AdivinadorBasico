@@ -14,11 +14,12 @@ public class Adivinador2 {
         Random numero = new Random();
         int numeroSecreto = numero.nextInt(100)+1;
         boolean gano=false;
-        System.out.println("Adivinador 2.0 - Dispones de 10 intentos para adivinar");
+        final int MAX_INTENTOS = 3;
+        System.out.println("Adivinador 2.0 - Dispones de "+MAX_INTENTOS+" intentos para adivinar");
         
         //System.out.println("For Debuggin "+numeroSecreto);
         
-        for(intento=1;intento<=10;intento++)
+        for(intento=1;intento<=MAX_INTENTOS;intento++)
         {
         System.out.print("Intento "+intento+": ");
         user = entrada.nextInt();
