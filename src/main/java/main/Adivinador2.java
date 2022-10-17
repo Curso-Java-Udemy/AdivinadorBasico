@@ -14,7 +14,7 @@ public class Adivinador2 {
         Random numero = new Random();
         int numeroSecreto = numero.nextInt(100)+1;
         boolean gano=false;
-        final int MAX_INTENTOS = 3;
+        final int MAX_INTENTOS = 10;
         System.out.println("Adivinador 2.0 - Dispones de "+MAX_INTENTOS+" intentos para adivinar");
         
         //System.out.println("For Debuggin "+numeroSecreto);
